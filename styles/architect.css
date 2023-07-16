@@ -1,14 +1,111 @@
 /* Share styles */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    
+    font-family: 'Work Sans', sans-serif;
 }
 .btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 8px;
+    background: #FF900E;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    opacity: 0.6;
+}
+.section-heading, .nav-title{
+    color:#131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.text-description{
+    color: #727272;
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+/* Header styles section */
+/* Nav styles */
+#header{
+    border: 3px solid blue;
+    max-width: 1920px;
+    padding: 30px 230px;
+    background-color:rgba(255, 144, 14, 0.10);
 
 }
-.section-heading{
+#header nav{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header nav h3{
+    border: 1px solid green;
+}
+#header nav ul{
+    border: 1px solid rgb(169, 248, 40);
+    display: flex;
+}
+#header nav ul li{
+    border: 1px solid rgb(235, 149, 20);
+    list-style: none;
+    margin-left: 30px;
+}
+#header nav ul li a{
+    border: 1px solid rgb(248, 40, 231);
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+/* Banner styles */
+.banner{
+    border: 1px solid orange;
+    margin-top: 100px;
+}
+.banner-content{
+    border: 1px solid rgb(229, 255, 0);
+    text-align: center;
+    max-width: 890px;
+    
+}
+.banner-content h1{
+    border: 1px solid rgb(255, 0, 140);
+    color:#131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-content p{
+    border: 1px solid rgb(140, 0, 255);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.banner-content button{
+    border: 1px solid rgb(115, 187, 33);
+}
+.banner img{
+    border: 1px solid rgb(255, 0, 200);
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Responsive layout */
+/* small devices */
+@media screen and (max-width: 576px){
+
+}
+
+/* Medium devices */
+@media screen and(min-width:576px) and (max-width: 960px){
 
 }
