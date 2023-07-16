@@ -84,6 +84,7 @@ body{
     margin-top: 50px;
 }
 /* Main section styles */
+/* Business consultation section styles */
 #main{
     margin-top:50px;
     margin-bottom: 100px;
@@ -114,7 +115,47 @@ body{
     color: #FF900E;
 }
 
+/* features section styles */
+.features-section{}
+.features-content{}
+.features-content h3{}
+.features-content p{}
 
+.features-content .card{}
+.features-content .card h4{}
+.features-content .card p{}
+
+.feature-img{}
+.feature-img img{}
+.experience-card{}
+.experience-card h2{}
+.experience-card p{}
+
+/* Some Facts section */
+.some-facts{}
+.facts-hading-container{}
+.facts-hading-container h3{}
+.facts-hading-container p{}
+
+.card-container{}
+.card-container .card{}
+.card-container .card img{}
+.card-container .card h2{}
+.card-container .card p{}
+
+/* Our Sponspors sections */
+.our-sponspors{}
+.sponspors-content{}
+.sponspors-content h3{}
+.sponspors-content p{}
+
+.sponspors-img{}
+.sponspors-img img{}
+
+/* Footer section styles */
+#footer{}
+.footer-container{}
+.footer-container p{}
 
 /* Responsive layout */
 /* small devices */
@@ -145,6 +186,16 @@ body{
         padding-top: 30px;
         padding-left: 0px;
     }
+    /* features section styles */
+
+
+    /* Some Facts section */
+
+
+    /* Our Sponspors sections */
+
+
+    /* Footer section styles */
 }
 
 /* Medium devices */
