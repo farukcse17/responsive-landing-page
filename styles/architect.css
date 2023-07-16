@@ -17,11 +17,12 @@ body{
     background: #FF900E;
     transition: 0.5s;
     cursor: pointer;
+    border: none;
 }
 .btn-primary:hover{
     opacity: 0.6;
 }
-.section-heading, .nav-title{
+.section-title, .nav-title{
     color:#131313;
     font-size: 3rem;
     font-weight: 700;
@@ -31,36 +32,28 @@ body{
     font-size: 1rem;
     line-height: 26px;
 }
-
+.section-flex{
+    display: flex;
+}
 /* Header styles section */
 /* Nav styles */
 #header{
-    border: 3px solid blue;
-    max-width: 1920px;
+    max-width: 1368px;
     padding: 30px 230px;
     background-color:rgba(255, 144, 14, 0.10);
 
 }
 #header nav{
-    border: 1px solid red;
-    display: flex;
+    
     justify-content: space-between;
     align-items: center;
 }
-#header nav h3{
-    border: 1px solid green;
-}
-#header nav ul{
-    border: 1px solid rgb(169, 248, 40);
-    display: flex;
-}
+
 #header nav ul li{
-    border: 1px solid rgb(235, 149, 20);
     list-style: none;
     margin-left: 30px;
 }
 #header nav ul li a{
-    border: 1px solid rgb(248, 40, 231);
     color: #424242;
     font-size: 1rem;
     font-weight: 500;
@@ -70,39 +63,85 @@ body{
 
 /* Banner styles */
 .banner{
-    border: 1px solid orange;
     margin-top: 100px;
 }
 .banner-content{
-    border: 1px solid rgb(229, 255, 0);
     text-align: center;
-    max-width: 890px;
-    
+    max-width: 900px;
+    margin: 0 auto;
 }
 .banner-content h1{
-    border: 1px solid rgb(255, 0, 140);
     color:#131313;
     font-size: 4rem;
     font-weight: 700;
 }
-.banner-content p{
-    border: 1px solid rgb(140, 0, 255);
+.banner-content p, .content p{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.banner-content button{
-    border: 1px solid rgb(115, 187, 33);
-}
 .banner img{
-    border: 1px solid rgb(255, 0, 200);
     width: 100%;
     margin-top: 50px;
 }
+/* Main section styles */
+#main{
+    margin-top:50px;
+    margin-bottom: 100px;
+}
+.container{
+    max-width: 1168px;
+    margin: auto;
+}
+.business-consultation{
+    align-items: center;
+}
+.grid-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.grid-img img{
+    width: 100%;
+}
+.content{
+    padding-left: 70px;
+}
+.quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.feature{
+    color: #FF900E;
+}
+
+
 
 /* Responsive layout */
 /* small devices */
 @media screen and (max-width: 576px){
-
+    #header{
+        padding: 30px;
+    }
+    .section-flex{
+        flex-direction: column;   
+    }
+    #header nav ul li{
+        margin-left: 5px;
+    }
+    .banner-content h1{
+        font-size: 2rem;
+    }
+    /* Main section responsive */
+    .business-consultation{
+        padding: 20px;
+    }
+    .grid-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .content{
+        padding-top: 30px;
+        padding-left: 0px;
+    }
 }
 
 /* Medium devices */
