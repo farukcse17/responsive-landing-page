@@ -211,18 +211,35 @@ body{
 }
 
 /* Our Sponspors sections */
-.our-sponspors{}
-.sponspors-content{}
-.sponspors-content h3{}
-.sponspors-content p{}
-
-.sponspors-img{}
-.sponspors-img img{}
+.sponspors-content{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.sponspors-content p{
+    padding-top:20px;
+    padding-bottom: 50px;
+}
+.sponspors-img{
+    display: flex;
+    justify-content: space-between;
+}
+.sponspors-img img{
+    transition: 0.5s;
+}
+.sponspors-img img:hover{
+    opacity: 0.5;
+}
 
 /* Footer section styles */
-#footer{}
-.footer-container{}
-.footer-container p{}
+.footer-container{
+    max-width: 1166px;
+    margin: auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 40px 0px;
+    text-align: center;
+}
 
 /* Responsive layout */
 /* small devices */
