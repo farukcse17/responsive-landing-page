@@ -232,6 +232,9 @@ body{
 }
 
 /* Footer section styles */
+#footer{
+    margin-bottom: 200px;
+}
 .footer-container{
     max-width: 1166px;
     margin: auto;
@@ -244,6 +247,9 @@ body{
 /* Responsive layout */
 /* small devices */
 @media screen and (max-width: 576px){
+    .section-title, .nav-title{
+        font-size: 2rem;
+    }
     #header{
         padding: 30px;
     }
@@ -255,6 +261,10 @@ body{
     }
     .banner-content h1{
         font-size: 2rem;
+    }
+
+    .sponspors-img{
+        flex-direction: column;
     }
     /* Main section responsive */
     .business-consultation{
@@ -271,13 +281,51 @@ body{
         padding-left: 0px;
     }
     /* features section styles */
-
-
+    .features-section{
+        margin-bottom: 50px;
+    }
+    .features-content{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .card-container{
+        margin-top: 50px;
+        padding: 0px 20px;
+    }
+    .feature-img{
+        width: 100%;
+    }
+    .experience-card{
+        width: 250px;
+        left: 10px;
+    }
+    .experience-card h2{
+        font-size: 2.5rem;
+    }
+    .card-container .card{
+        margin-bottom: 20px;
+    }
     /* Some Facts section */
-
+    .facts-hading-container{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0px 20px;
+    }
 
     /* Our Sponspors sections */
-
+    .sponspors-content{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0px 20px;
+    }
+    .sponspors-img img {
+        transition: 0.5s;
+        margin-bottom: 20px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
 
     /* Footer section styles */
 }
